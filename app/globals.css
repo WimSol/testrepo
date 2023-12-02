@@ -16,7 +16,15 @@
   }
 }
 
-body {
+@font-face {
+  font-family: 'Pixeloid';
+  src: url('/fonts/WebOpenFontFormat/PixeloidSans.woff2') format('woff2'), /* Adjust path as needed */
+       url('/fonts/WebOpenFontFormat/PixeloidSans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +32,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+
+} */
+
+

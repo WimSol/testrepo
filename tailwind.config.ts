@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'solanapurple': '#9945FF', // Replace hexValue1 with your desired hex code
+        'solanagreen': '#14F195', // Replace hexValue2 with your desired hex code
+        // Add as many custom colors as you need
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

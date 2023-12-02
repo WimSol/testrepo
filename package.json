@@ -1,5 +1,5 @@
 {
-  "name": "my-next-app",
+  "name": "token2022",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "13": "^0.0.0",
-    "next": "13.5.x",
+    "@heroicons/react": "^2.0.18",
+    "@react-three/drei": "^9.89.0",
+    "@react-three/fiber": "^8.15.11",
+    "framer-motion": "^10.16.5",
+    "next": "^13.5.6",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-type-animation": "^3.2.0",
+    "sass": "^1.69.5",
+    "scss": "^0.2.4"
   },
   "devDependencies": {
     "@types/node": "^20",
