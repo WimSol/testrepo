@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+
+        '3xl': '2400px', // Custom breakpoint
+      },
       colors: {
         'solanapurple': '#9945FF', // Replace hexValue1 with your desired hex code
         'solanagreen': '#14F195', // Replace hexValue2 with your desired hex code

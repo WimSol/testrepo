@@ -7,7 +7,7 @@ import Link from "next/link"
 
 const AboutPage = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-12 place-content-center md:mt-40 xlg:mt-60">
+    <div className="grid grid-cols-1 sm:grid-cols-12 place-content-center md:mt-40 3xl:mt-80">
 
         {/* <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -31,7 +31,7 @@ const AboutPage = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-start-4 col-span-6 mx-16 text-center sm:text-left pl-10 pr-10 rounded-lg shadow-lg bg-gradient-to-br from-gray-700 to-gray-900 border-white border-2"
+          className="col-start-2 col-span-10 xl:col-start-4 xl:col-span-6 mx-16 text-center sm:text-left pl-10 pr-10 rounded-lg shadow-lg bg-gradient-to-br from-gray-700 to-gray-900 border-white border-2"
         
         >
           <h1 className="text-white text-center my-2 text-2xl sm:text-3xl md:text-4xl lg:leading-normal font-extrabold" style={{ fontFamily: 'Pixeloid, sans-serif' }}>
