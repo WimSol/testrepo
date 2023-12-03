@@ -7,13 +7,14 @@ import Link from "next/link";
 
 const HeroPage = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-12 mt-40">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className=" col-start-2 col-span-8 xl:col-start-3 xl:col-span-6 place-self-center text-center sm:text-left p-20 mt-0 3xl:mt-60"
-        >
+    <div className="flex flex-col lg:flex-row justify-center items-center">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+        //3xl:mt-60
+        className="text-center p-20"
+      >
           <h1 className="text-white my-2 text-2xl sm:text-3xl md:text-4xl lg:leading-normal font-extrabold" style={{ fontFamily: 'Pixeloid, sans-serif' }}>
             Welcome to TOKEN-2022
             <br></br>
@@ -72,12 +73,13 @@ const HeroPage = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          // className="col-span-8 place-self-center mt-4 lg:mt-0 p-10 2xl:mt-0"
-          className="xl:col-start-9 place-self-center mt-4 lg:mt-0 3xl:mt-60 p-10"
-        >
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+        // className="mt-4 lg:mt-0 3xl:mt-60 p-10"
+        className="p-10"
+      >
+        
           <div className="w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] 3xl:w-[600px] 3xl:h-[600px] relative">
             <Image
               src="/Logocoin.png"

@@ -22,11 +22,14 @@ html {
     text-decoration: none;
     color: inherit;
   }
-  
+
   section {
     width: 100%;
     scroll-snap-align: center;
     overflow: hidden;
+    display: flex; // Add flex display
+    justify-content: center; // Center horizontally
+    align-items: center; // Center vertically
   
     // Default height for large screens
     height: 100vh;
