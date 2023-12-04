@@ -7,13 +7,13 @@ import Link from "next/link"
 
 const Tokenomics = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center">
+    <div className="flex flex-col lg:flex-row justify-center items-center ">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           // className="col-start-2 col-span-6 mx-16 text-center sm:text-left pl-10 pr-10 rounded-lg shadow-lg border-white border-2 "
-          className="sm:mt-40 border-2 border-white p-5 bg-transparent text-white m-5 rounded-lg">
+          className="mt-10 sm:mt-0 border-2  border-white p-5 bg-transparent text-white m-5 rounded-lg">
 
           <h2 className="text-lg text-center text-yellow-400 mb-2" style={{ fontFamily: 'Pixeloid, sans-serif' }}>Tokenomics</h2>
           <p style={{ fontFamily: 'Pixeloid, sans-serif' }}><strong>Total Supply:</strong> 10,000,000,000</p>
