@@ -16,18 +16,18 @@ const Tokenomics = () => {
           className="sm:mt-40 border-2 border-white p-5 bg-transparent text-white m-5 rounded-lg">
 
           <h2 className="text-lg text-center text-yellow-400 mb-2" style={{ fontFamily: 'Pixeloid, sans-serif' }}>Tokenomics</h2>
-          <p><strong>Total Supply:</strong> 10,000,000,000</p>
+          <p style={{ fontFamily: 'Pixeloid, sans-serif' }}><strong>Total Supply:</strong> 10,000,000,000</p>
           <ul className="list-disc pl-5" style={{ fontFamily: 'Pixeloid, sans-serif' }}>
-            <li><strong>40% - Liquidity:</strong> Initial liquidity locked with Solana in the treasury.</li>
-            <li><strong>40% - Airdrop:</strong> Distributed to wallets contributing Solana to the treasury.</li>
-            <li><strong>15% - Grants, Marketing & Development:</strong> For longevity, distributed to creators and organizations in Solana DeFi.</li>
-            <li><strong>5% - CEX Integrations:</strong> For future centralized exchange integration.</li>
+            <li style={{ fontFamily: 'Pixeloid, sans-serif' }}><strong>40% - Liquidity:</strong> Initial liquidity locked with Solana in the treasury.</li>
+            <li style={{ fontFamily: 'Pixeloid, sans-serif' }}><strong>40% - Airdrop:</strong> Distributed to wallets contributing Solana to the treasury.</li>
+            <li style={{ fontFamily: 'Pixeloid, sans-serif' }}><strong>15% - Grants, Marketing & Development:</strong> For longevity, distributed to creators and organizations in Solana DeFi.</li>
+            <li style={{ fontFamily: 'Pixeloid, sans-serif' }}><strong>5% - CEX Integrations:</strong> For future centralized exchange integration.</li>
           </ul>
           <h2 className="text-lg text-center text-yellow-400 mt-4 mb-2" style={{ fontFamily: 'Pixeloid, sans-serif' }}>Transfer Fee</h2>
           <p><strong>Rate:</strong> 2.2%</p>
           <ul className="list-disc pl-5" style={{ fontFamily: 'Pixeloid, sans-serif' }}>
-            <li><strong>50% - Burned:</strong> Weekly token burn, with proof shared on Twitter.</li>
-            <li><strong>50% - Staking Rewards:</strong> Added to the pool for distribution to stakers.</li>
+            <li style={{ fontFamily: 'Pixeloid, sans-serif' }}><strong>50% - Burned:</strong> Weekly token burn, with proof shared on Twitter.</li>
+            <li style={{ fontFamily: 'Pixeloid, sans-serif' }}><strong>50% - Staking Rewards:</strong> Added to the pool for distribution to stakers.</li>
           </ul>
             </motion.div>
             <motion.div

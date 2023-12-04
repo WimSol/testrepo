@@ -15,11 +15,12 @@ const HeroPage = () => {
         //3xl:mt-60 mt-40
         className="text-center p-20"
       >
-          <h1 className="text-white my-2 text-2xl sm:text-3xl md:text-4xl lg:leading-normal font-extrabold" style={{ fontFamily: 'Pixeloid, sans-serif' }}>
+          <h1 className=" text-white my-2 text-2xl sm:text-3xl md:text-4xl lg:leading-normal font-extrabold" style={{ fontFamily: 'Pixeloid, sans-serif' }}>
             Welcome to TOKEN-2022
             <br></br>
-            tckr symbol: 
-            <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-solanapurple to-solanagreen" >
+            tckr symbol:
+            <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-solanapurple to-solanagreen" style={{ width: '130px' }}>
+
               <TypeAnimation
                 sequence={[
                   " $2022",

@@ -63,15 +63,15 @@ const AboutPage = () => {
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
-        className="mx-16 text-center sm:text-left pl-10 pr-10 rounded-lg shadow-lg sm:mt-30 sm:w-5/5 md:w-4/5 lg:w-3/5 2xl:2/5 bg-gradient-to-br mt-0 sm:mt-20 from-gray-700 to-gray-900 border-white border-2"
+        className="mx-16 text-center sm:text-left pl-10 pr-10 rounded-lg shadow-lg sm:mt-30 sm:w-5/5 md:w-4/5 lg:w-3/5 xl:w-2/5 bg-gradient-to-br mt-0 sm:mt-20 from-gray-700 to-gray-900 border-white border-2"
         >
-          <h1 className="text-white text-center my-2 text-2xl sm:text-base md:text-4xl 3xl:text-6xl lg:leading-normal font-extrabold" style={{ fontFamily: 'Pixeloid, sans-serif' }}>
+          <h1 className="text-white text-center my-2 sm:text-base md:text-4xl 3xl:text-6xl lg:leading-normal font-extrabold" style={{ fontFamily: 'Pixeloid, sans-serif' }}>
             ABOUT TOKEN 2022
             
             <div className="w-4/5 h-1 bg-white mx-auto my-4"></div>
             
           </h1>
-          <p className="text-[#ffffff] text-base sm:text-xs mb-6 lg:text-xl 3xl:text-2xl" style={{ fontFamily: 'Pixeloid, sans-serif' }}>
+          <p className="text-[#ffffff]  text-xs sm:text-base mb-6 lg:text-xl 3xl:text-2xl" style={{ fontFamily: 'Pixeloid, sans-serif' }}>
           Token 2022 is a meme coin hosted on the Solana blockchain, utilizing the innovative Token22 program to establish itself as one of the first genuinely deflationary meme coins on the blockchain. The token will debut with a total supply of 10,000,000,000 tokens, all of which will be accessible from the initial launch date, and no additional tokens will ever be minted. Token 2022 incorporates the Transfer Fee feature from the Token22 program, enabling the creation of a genuinely deflationary token through a weekly token burn.
           <br></br>
           <br></br>
