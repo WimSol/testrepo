@@ -7,13 +7,13 @@ import Link from "next/link"
 
 const Tokenomics = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-12 place-content-center mt-60">
+    <div className="flex flex-col lg:flex-row justify-center items-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           // className="col-start-2 col-span-6 mx-16 text-center sm:text-left pl-10 pr-10 rounded-lg shadow-lg border-white border-2 "
-          className="col-start-2 col-span-5 border-2 border-white p-5 bg-transparent text-white m-5 rounded-lg">
+          className="sm:mt-40 border-2 border-white p-5 bg-transparent text-white m-5 rounded-lg">
 
           <h2 className="text-lg text-center text-yellow-400 mb-2">Tokenomics</h2>
           <p><strong>Total Supply:</strong> 10,000,000,000</p>
@@ -35,7 +35,7 @@ const Tokenomics = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
               // className="col-span-8 place-self-center mt-4 lg:mt-0 p-10"
-              className="col-start-9 place-self-center mt-4 lg:mt-0 p-10"
+              className="place-self-center mt-4 lg:mt-0 p-10"
             >
               <div className="bg-[#181818] w-[250px] h-[250px] lg:w-[600px] lg:h-[600px] relative">
                 <Image
