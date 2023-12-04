@@ -1,0 +1,6 @@
+.pixelated-chart {
+    image-rendering: 'pixelated';
+    width: '450px';
+    height: '450px';
+    justify-content: center;
+  }

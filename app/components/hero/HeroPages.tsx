@@ -18,8 +18,8 @@ const HeroPage = () => {
           <h1 className=" text-white my-2 text-2xl sm:text-3xl md:text-4xl lg:leading-normal font-extrabold" style={{ fontFamily: 'Pixeloid, sans-serif' }}>
             Welcome to TOKEN 2022
             <br></br>
-            ticker symbol:
-            <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-solanapurple to-solanagreen" style={{ width: '130px' }}>
+            Ticker symbol:
+            <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r pl-3 from-solanapurple to-solanagreen" style={{ width: '130px' }}>
 
               <TypeAnimation
                 sequence={[

@@ -38,7 +38,7 @@ html {
     // Media query for smaller screens
     @media (max-width: 768px) { // Adjust breakpoint as needed
       height: auto; // Adjust height to content
-      min-height: 50vh; // Ensures the section takes up at least half of the viewport height
+      min-height: 40vh; // Ensures the section takes up at least half of the viewport height
       overflow-y: auto; // Allows scrolling if content overflows
     }
   }

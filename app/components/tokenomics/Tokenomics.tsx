@@ -4,6 +4,7 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link"
+import MyPixelatedPieChart from './PixelatedPieChart';
 
 const Tokenomics = () => {
   return (
@@ -13,7 +14,7 @@ const Tokenomics = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           // className="col-start-2 col-span-6 mx-16 text-center sm:text-left pl-10 pr-10 rounded-lg shadow-lg border-white border-2 "
-          className="mt-10 sm:mt-0 border-2  border-white p-5 bg-transparent text-white m-5 rounded-lg">
+          className="mt-40 sm:mt-0 border-2  border-white p-5 bg-transparent text-white m-5 rounded-lg">
 
           <h2 className="text-lg text-center text-yellow-400 mb-2" style={{ fontFamily: 'Pixeloid, sans-serif' }}>Tokenomics</h2>
           <p style={{ fontFamily: 'Pixeloid, sans-serif' }}><strong>Total Supply:</strong> 10,000,000,000</p>
@@ -37,14 +38,15 @@ const Tokenomics = () => {
               // className="col-span-8 place-self-center mt-4 lg:mt-0 p-10"
               className="place-self-center mt-4 lg:mt-0 p-10"
             >
-              <div className="bg-[#181818] w-[250px] h-[250px] lg:w-[600px] lg:h-[600px] relative">
+              <div className="bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative items-center">
                 <Image
-                  src="/2022logo-transparent.png"
+                  src="/TokenomicsChart.png"
                   alt="hero image"
                   className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                   width={400}
                   height={400}
                 />
+
               </div>
         </motion.div>
       </div>
