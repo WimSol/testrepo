@@ -1,63 +1,27 @@
-// MyPixelatedPieChart.tsx
-import React from 'react';
-import { Pie } from 'react-chartjs-2';
-import Chart from 'chart.js/auto';
-import './piechart.css'
-import { ArcElement, Tooltip, Legend } from 'chart.js';
+import React, { useRef, useEffect } from 'react';
+import PieChart3D from './PieChart3D'; // Importing the JavaScript class
 
-// Register the required components
-Chart.register(ArcElement, Tooltip, Legend);
-const options = {
-  responsive: true,
-  maintainAspectRatio: false,
-  plugins: {
-    legend: {
-      display: false
-    },
-    tooltip: {
-      enabled: true
-    }
-  },
-  elements: {
-    arc: {
-      borderWidth: 3,
-      borderColor: '#fff',
-      hoverBorderColor: '#fff',
-      shadowOffsetX: 3,
-      shadowOffsetY: 3,
-      shadowBlur: 10,
-      shadowColor: 'rgba(0, 0, 0, 0.5)'
-    }
-  },
+
+const PieChartPage: React.FC = () => {
+    const canvasRef = useRef<HTMLCanvasElement>(null);
+    const labels = ['Liquidity', 'Airdrop', 'Marketing & Development', 'CEX Integrations'];
+    const data = [4000000000, 4000000000, 1500000000, 500000000];
+    const colors = ['#6495ED', '#f2deff', '#40E0D0', '#FFBF00'];
+
+    useEffect(() => {
+        if (canvasRef.current) {
+            const chart = new PieChart3D(canvasRef.current, data, labels, colors);
+            chart.draw();
+            chart.createLegend(0, 0);
+        }
+    }, [data, labels, colors]);
+
+    return (
+        <div>
+            <div id="legend"></div>
+            <canvas ref={canvasRef} width="500" height="500"></canvas>
+        </div>
+    );
 };
 
-const MyPixelatedPieChart = () => {
-  const data = {
-    labels: ['A', 'B', 'C'],
-    datasets: [
-      {
-        label: 'My Dataset',
-        data: [300, 50, 100],
-        backgroundColor: [
-          'rgba(255, 99, 132, 0.2)',
-          'rgba(54, 162, 235, 0.2)',
-          'rgba(255, 206, 86, 0.2)',
-        ],
-        borderColor: [
-          'rgba(255, 99, 132, 1)',
-          'rgba(54, 162, 235, 1)',
-          'rgba(255, 206, 86, 1)',
-        ],
-        borderWidth: 1,
-      },
-    ],
-  };
-
-  return (
-    <div className="pixelated-chart">
-      <Pie data={data} options={options}/>
-    </div>
-  );
-};
-
-export default MyPixelatedPieChart;
+export default PieChartPage;

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link"
-import MyPixelatedPieChart from './PixelatedPieChart';
+import PieChartPage from './PixelatedPieChart';
 
 const Tokenomics = () => {
   return (
@@ -37,15 +37,16 @@ const Tokenomics = () => {
               transition={{ duration: 0.5 }}
               // className="col-span-8 place-self-center mt-4 lg:mt-0 p-10"
               className="place-self-center mt-4 lg:mt-0 p-10"
-            >
-              <div className="bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative items-center">
-                <Image
+            >     {/*text-white*/} 
+              <div className="border-2 border-white p-5 bg-transparent m-5 rounded-lg w-[250px] h-[250px] lg:w-[600px] lg:h-[600px] relative items-center">
+                {/* <Image
                   src="/TokenomicsChart.png"
                   alt="hero image"
                   className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                   width={400}
                   height={400}
-                />
+                /> */}
+                <PieChartPage />
 
               </div>
         </motion.div>
