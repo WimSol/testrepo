@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import PieChart3D from './PieChart3D'; // Importing the JavaScript class
 
 
+
 const PieChartPage: React.FC = () => {
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const labels = ['Liquidity', 'Airdrop', 'Marketing & Development', 'CEX Integrations'];
@@ -17,10 +18,13 @@ const PieChartPage: React.FC = () => {
     }, [data, labels, colors]);
 
     return (
-        <div>
-            <div id="legend"></div>
-            <canvas ref={canvasRef} width="500" height="500"></canvas>
-        </div>
+      <div className="position: relative;">
+          
+          <div>
+              <canvas ref={canvasRef} id="myCanvas" width="400" height="400"></canvas>
+          </div>
+          <div id="legend" className=''></div>
+      </div>
     );
 };
 

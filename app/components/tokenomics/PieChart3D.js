@@ -60,6 +60,10 @@ class PieChart3D {
     }
 
     init() {
+        this.canvas.style.width = "100%";
+        this.canvas.style.height = "100%";
+        this.canvas.width = this.canvas.offsetWidth;
+        this.canvas.height = this.canvas.offsetHeight;    
         this.radius = 200;
         this.centerX = this.canvas.width / 2;
         this.centerY = this.canvas.height / 2;
@@ -322,11 +326,11 @@ class PieChart3D {
         for (var i = 0; i < this.labels.length; i++) {
             var darkenedColor = this.darkenColor(this.colors[i]);
             legendHTML += `
-            <div class='legend-container' style='display: flex;'>
+            <div class='legend-container' style='display: flex; margin-top: 5px;'>
                 <div class='legend-item' style='background: linear-gradient(145deg, ${darkenedColor}, ${this.colors[i]}); width:53px; margin-right:10px'>
                     <div style='display: flex; align-items: center;'>
                         <div class='percentage-box' style='background-color:SOME_COLOR'>
-                            <span><b>${(this.data[i] / total * 100).toFixed(2)}%</b></span>
+                            <span ><b>${(this.data[i] / total * 100).toFixed(2)}%</b></span>
                         </div>
                     </div>
                 </div>
@@ -334,7 +338,7 @@ class PieChart3D {
                     <div style='display: flex; align-items: center;'>
                         <div class='color-box' style='background-color:${this.colors[i]}'></div>
                         <img src='${images[i]}' style='width:20px; height:20px; margin-right:5px;'>
-                        <span>${this.labels[i]}</span>
+                        <span style='color: white;'>${this.labels[i]}</span>
                     </div>
                 </div>
             </div>`;

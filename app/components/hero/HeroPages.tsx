@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const HeroPage = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center mt-10 sm:mt-0">
+    <div className="flex flex-col lg:flex-row justify-center items-center mt-40 sm:mt-0">
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}

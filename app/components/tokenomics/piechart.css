@@ -4,3 +4,39 @@
     height: '450px';
     justify-content: center;
   }
+
+
+  /* #piechartContainer {
+    background-color: rgb(255, 255, 255, 0.65); 
+    width: 40%;
+    position: absolute;
+    left: 5%;
+    border-radius: 120px;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+#legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* #canvasContainer {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+} */
+
+#myCanvas {
+  display: block;
+  margin: auto;
+  width: 75%;
+  height: auto;
+}

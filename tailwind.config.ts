@@ -7,10 +7,16 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    
     extend: {
+      fontSize: {
+        '2xs': ['10px', '10px']
+  
+      },
       screens: {
 
         '3xl': '2400px', // Custom breakpoint
+        'iphonePRO': '380px',
       },
       colors: {
         'solanapurple': '#9945FF', // Replace hexValue1 with your desired hex code
