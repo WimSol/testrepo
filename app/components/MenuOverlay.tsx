@@ -12,7 +12,7 @@ type MenuOverlayProps = {
 
 const MenuOverlay = ({ links }: MenuOverlayProps) => {
   return (
-    <ul className="flex flex-col py-4 items-center bg-black">
+    <ul className="flex flex-col py-4 items-center bg-[#0d1335]">
       {links.map((link, index) => (
         <li key={index}>
           <NavLink href={link.path} title={link.title} />

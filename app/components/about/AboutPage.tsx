@@ -63,7 +63,10 @@ const AboutPage = () => {
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
-        className="mx-16 text-center sm:text-left pl-10 pr-10 rounded-lg shadow-lg sm:mt-30 sm:w-5/5 md:w-4/5 lg:w-4/5 xl:w-3/5 2xl:w-2/5 bg-gradient-to-br mt-40 sm:mt-20 from-gray-700 to-gray-900 border-white border-2"
+        // className="mx-16 text-center sm:text-left pl-10 pr-10 rounded-lg shadow-lg sm:mt-30 sm:w-5/5 md:w-4/5 lg:w-4/5 xl:w-3/5 2xl:w-2/5 bg-gradient-to-br mt-40 sm:mt-20 from-gray-700 to-gray-900 border-white border-2"
+        className="mx-16 text-center sm:text-left pl-10 pr-10 rounded-lg shadow-lg sm:mt-30 sm:w-5/5 md:w-4/5 lg:w-4/5 xl:w-3/5 2xl:w-2/5 bg-[#0d1335] mt-40 sm:mt-20  border-white border-2"
+        
+        
         >
           <h1 className="text-white text-center my-2 sm:text-base md:text-4xl 3xl:text-6xl lg:leading-normal font-extrabold" style={{ fontFamily: 'Pixeloid, sans-serif' }}>
             ABOUT TOKEN 2022

@@ -24,7 +24,7 @@ const navLinks = [
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#000000] bg-opacity-0">
+    <nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#0d1335] bg-opacity-100">
       <div className="flex container flex-wrap items-center justify-between mx-auto px-4 py-2 h-46">
         <Link href={"/#Homepage"} className="text-2xl md:text-4xl text-white font-semibold flex items-center md:pl-20 lg:pl-40">
         
@@ -60,6 +60,14 @@ const Navbar = () => {
         </div>
       </div>
       {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+      {/* Twitter Logo (absolute positioning on the right side) */}
+      <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
+          <a href="https://twitter.com/SolanaToken2022" target="_blank" rel="noopener noreferrer">
+            <img src="/logo-white.png" alt="Twitter" className="h-8 w-8" /> {/* Replace with your Twitter logo path */}
+          </a>
+        </div>
+
+      
     </nav>
   );
 };

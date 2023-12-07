@@ -37,6 +37,10 @@ html {
   
     // Media query for smaller screens
     @media (max-width: 768px) { // Adjust breakpoint as needed
+      html {
+        scroll-snap-type: none; // Disables scroll snap on small screens
+      }
+      scroll-snap-align: none;
       height: auto; // Adjust height to content
       min-height: 40vh; // Ensures the section takes up at least half of the viewport height
       overflow-y: auto; // Allows scrolling if content overflows
