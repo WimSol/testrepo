@@ -57,14 +57,14 @@ const HeroPage = () => {
                 CHART (soon)
               </span>
             </Link> */}
-            <a href="https://raydium.io/" target="_blank" rel="noopener noreferrer">
+            <a href="https://token2022.xyz/" target="_blank" rel="noopener noreferrer">
               <span
                 className="font-extrabold inline-block py-3 px-6 w-full sm:w-fit rounded-full mr-4 lg:ml-10 bg-solanagreen hover:bg-slate-800 text-black hover:text-white transition-all duration-300"
               >
                 $BUY (soon)
               </span>
             </a>
-            <a href="https://birdeye.so/" target="_blank" rel="noopener noreferrer">
+            <a href="https://token2022.xyz/" target="_blank" rel="noopener noreferrer">
               <span
                 className="font-extrabold inline-block py-3 px-6 w-full sm:w-fit rounded-full bg-solanapurple hover:bg-slate-800 text-black hover:text-white mt-3 transition-all duration-300"
               >

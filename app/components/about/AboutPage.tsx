@@ -74,8 +74,8 @@ const AboutPage = () => {
             <div className="w-4/5 h-1 bg-white mx-auto my-4"></div>
             
           </h1>
-          <p className="text-[#ffffff] text-2xs iphonePRO:text-xs sm:text-base mb-6 xl:text-xl 3xl:text-2xl" style={{ fontFamily: 'Pixeloid, sans-serif' }}>
-          Token 2022 is a meme coin hosted on the Solana blockchain, utilizing the innovative Token22 program to establish itself as one of the first genuinely deflationary meme coins on the blockchain. The token will debut with a total supply of 10,000,000,000 tokens, all of which will be accessible from the initial launch date, and no additional tokens will ever be minted. Token 2022 incorporates the Transfer Fee feature from the Token22 program, enabling the creation of a genuinely deflationary token through a weekly token burn.
+          <p className="text-[#ffffff] text-center text-2xs iphonePRO:text-xs sm:text-base mb-6 xl:text-xl 3xl:text-2xl" style={{ fontFamily: 'Pixeloid, sans-serif' }}>
+          Token 2022 is a memecoin hosted on the Solana blockchain, utilizing the innovative Token22 program to establish itself as one of the first genuinely deflationary meme coins on the blockchain. The token will debut with a total supply of 10,000,000,000 tokens, all of which will be accessible from the initial launch date, and no additional tokens will ever be minted. Token 2022 incorporates the Transfer Fee feature from the Token22 program, enabling the creation of a genuinely deflationary token through a weekly token burn.
           <br></br>
           <br></br>
           The transfer fee is set at 2.2% initially, with half of the fee designated for burning and the other half distributed to holders through a staking mechanism. This strategic approach aims to reduce the total token supply over time, making Token 2022 scarcer, while also rewarding holders who participate in the staking process.
